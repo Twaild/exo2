@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import photo from '/Users/CXI/Documents/react/exo2/src/assets/images/photo.jpg';
+import photo from '../../assets/images/photo.jpg';
 
 class Presentation extends Component {
     constructor(props) {
