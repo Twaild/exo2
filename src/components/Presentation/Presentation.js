@@ -20,21 +20,20 @@ class Presentation extends Component {
     render() {
         return (
             <div>
-                <Card>   
+                <Card style={{width:280}}>   
+                    <CardHeader avatar={<Avatar src={photo} alt="avatar Théo WALD"/>} title='Théo WALD' align='justify' subheader="2 Mars 2019 "/>
                         <CardContent>
-                            <Typography variant="h3">
-                                Théo WALD
-                            </Typography>
-                            <Typography paragraph>
+                            <Typography variant="body1" align="justify" gutterBottom>
                                     Salut moi c'est Théo, je suis le plus grand dev Reac.js du monde, je mesure environ 7m12.
                                     Si vous avez envie de me contacter, faites le par facebook, via ce magnifique bouton cliquable !      
                             </Typography>
-                            <Avatar alt="Remy Sharp" src="../../assets/images/photo.jpg" />
-                        </CardContent>
-                </Card>
-                    <Button variant="contained" color="secondary" href="https://www.facebook.com" target="_blank">
+                            <Button variant="contained" color="secondary" href="https://www.facebook.com" target="_blank">
                          Facebook 
-                    </Button>
+                             </Button>
+                        </CardContent>
+
+
+                </Card>
 
             </div>
         );
