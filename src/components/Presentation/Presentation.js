@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import photo from "../../assets/images/photo.jpg";
 import Card from "../../../node_modules/@material-ui/core/Card/Card";
 import CardContent from "../../../node_modules/@material-ui/core/CardContent";
