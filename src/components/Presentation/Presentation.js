@@ -21,21 +21,25 @@ class Presentation extends Component {
             avatar={<Avatar src={photo} alt="avatar Théo WALD" />}
             title="Théo WALD"
             subheader="2 Mars 2019 "
+            className="left"
           />
           <CardContent>
-            <Typography variant="body1" >
+            <Typography variant="body1" className="justify" >
               Salut moi c'est Théo, je suis le plus grand dev Reac.js du monde,
               je mesure environ 7m12. Si vous avez envie de me contacter, faites
               le par facebook, via ce magnifique bouton cliquable !
             </Typography>
+            <div className="center">
             <Button
               variant="contained"
               color="secondary"
               href="https://www.facebook.com"
               target="_blank"
+              className="center"
             >
               Facebook
             </Button>
+            </div>
           </CardContent>
         </Card>
       </div>
