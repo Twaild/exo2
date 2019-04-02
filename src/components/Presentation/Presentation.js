@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import photo from "../../assets/images/photo.jpg";
-import Card from "../../../node_modules/@material-ui/core/Card/Card";
-import CardContent from "../../../node_modules/@material-ui/core/CardContent";
-import Typography from "../../../node_modules/@material-ui/core/Typography";
-import Avatar from "../../../node_modules/@material-ui/core/Avatar";
-import CardHeader from "../../../node_modules/@material-ui/core/CardHeader";
-import Button from "../../../node_modules/@material-ui/core/Button/Button";
+import Card from "@material-ui/core/Card/Card";
+import CardContent from "@material-ui/core/CardContent";
+import Typography from "@material-ui/core/Typography";
+import Avatar from "@material-ui/core/Avatar";
+import CardHeader from "@material-ui/core/CardHeader";
+import Button from "@material-ui/core/Button/Button";
 
 class Presentation extends Component {
   constructor(props) {
